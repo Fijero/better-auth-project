@@ -11,6 +11,8 @@ export default function SocialAuthButtons() {
   return supportedSocialAuths.map((provider) => {
     const Icon = supportedAuthDetails[provider].Icon;
 
+    // TODO: handle loading
+
     return (
       <Button
         variant={"outline"}
